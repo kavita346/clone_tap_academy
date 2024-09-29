@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="tap-tapAcademy-logo.jpeg" >
+    <title>form</title>
+</head>
+<body><br><br>
+
+    <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <span><img src="tap-tapcompany-logo.1ee5784c.svg" alt="img not found"></span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <a href="message.html" >
+            <span >Home</span>
+        </a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <span aria-setsize="1">Courses
+            <select name="Courses" id="" size="1" >
+                
+               <option value=""> </option>
+                <option value="" >Full Stack Web Development (JAVA); </option>
+                <option value="">Data Structures and Algorithms</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>&nbsp;&nbsp;&nbsp;&nbsp;
+
+    
+        
+        <a href="student.html" >
+            <span>Student Reviews</span>
+        </a> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+
+
+        <a href="hire_from_us.html" >
+            <span>Hire from Us</span>
+        </a> &nbsp;&nbsp;&nbsp;&nbsp;
+        
+
+       
+       
+        <a href="contact.html" >
+            <span>Contact Us</span>
+        </a> &nbsp;&nbsp;&nbsp;&nbsp;
+
+    </div><br><br>
+    <hr>
+
+    <form action="message.html">
+        <fieldset>
+            <legend><h1>Enter your details</h1></legend>
+            
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required placeholder="Name" pattern="[a-zA-Z\s]{3,50}"><br><br>
+            
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required placeholder="you@example.com" pattern="[a-z0-9_.]+@[a-z]+.[a-z]{2,}"><br><br>
+            
+            <label for="phone">Phone</label><br>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9]{10,15}" placeholder="Enter your phone number"><br><br>
+            
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" placeholder="Write a message" cols="30" rows="10" required></textarea><br><br>
+            
+            <button type="submit">Send Message</button>
+        </fieldset>
+    </form>
+    
+   
+</body>
+</html>
